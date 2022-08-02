@@ -445,16 +445,86 @@
             </li>
           </ul>
         </div>
+
+        <form class="form" autocomplete="off">
+          <div class="subscribe">
+            <b class="subscribe-title">Підпишіться на розсилку</b>
+            <div class="button-position">
+              <label class="mail-label">
+                <input class="mail-form" type="email" name="email" placeholder="E-mail" />
+              </label>
+              <button class="button-submit button" type="submit">
+                <span class="subscribe-text">Підписатися</span>
+                <svg class="icon-send" width="24" height="24">
+                  <use href="./images/icons/symbol-defs.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </form>
       </div>
     </footer>
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+
+        <form class="modal-form" autocomplete="off">
+<div class="field-form">
+          <b class="modal-text">Залиште свої дані, ми вам передзвонимо</b>
+          
+			 <label class="name-label label">
+				 <span class="text-placeholder">Ім'я</span>
+        		 <div class="person-position">
+            <input class="name-form input-form" name="name" type="name" placeholder=" " />
+				<svg class="icon-person" width="18" height="18">
+					<use href="./images/icons/symbol-defs.svg#icon-person" ></use>
+				</svg>
+				</div>
+          </label>
+
+          <label class="tel-label label">
+            <span class="text-placeholder">Телефон</span>
+				<div class="phone-position">
+            <input class="name-form input-form" name="name" type="name" placeholder=" " />
+				<svg class="icon-phone" width="18" height="18">
+					<use href="./images/icons/symbol-defs.svg#icon-phone" ></use>
+				</svg>
+				</div>
+          </label>
+
+          <label class="email-label label">
+				<span class="text-placeholder"> Пошта</span>
+           	<div class="email-position">
+            <input class="email-form input-form" name="name" type="name" placeholder=" " />
+				<svg class="icon-email" width="18" height="18">
+					<use href="./images/icons/symbol-defs.svg#icon-email" ></use>
+				</svg>
+				</div>
+          </label>
+
+          <label class="comment-label label">
+				<span class="text-placeholder">Коментар</span>
+         <textarea class="comment" placeholder="Введіть текст" >
+
+			</textarea>
+          </label>
+</div>
+          <label class="policy-label label">
+            <input class="checkbox" type="checkbox" name="policy" />
+            <span class="icon-checkbox"></span>
+				
+				<span class="text-policy">Погоджуюся з розсилкою та приймаю <a class="link-policy" href="#">Умови договору</a></span>
+          </label>
+			 <button class="button-submit button button-send" type="submit">
+                <span class="subscribe-text">Відправити</span>
+        </form>
+		  
         <button class="button-close" data-modal-close>
           <svg class="icon-close" width="11" height="11">
             <use href="./images/icons/symbol-defs.svg#icon-close"></use>
           </svg>
         </button>
+
       </div>
     </div>
     <script src="./js/modal.js"></script>

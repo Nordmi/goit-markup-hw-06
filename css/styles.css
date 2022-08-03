@@ -1031,4 +1031,9 @@ textarea {
 
 .button-send {
   display: block;
+  
+}
+
+.text-button {
+	margin-right: 0;
 }
